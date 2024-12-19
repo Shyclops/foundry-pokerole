@@ -17,7 +17,7 @@
     "module/pokerole.mjs"
   ],
   "styles": [
-    "css/pokerole.css"
+    "scss/pokerole.scss"
   ],
   "scripts": [],
   "packs": [
