@@ -289,10 +289,10 @@ POKEROLE.rankProgression = {
   },
 };
 
-POKEROLE.attributes = ['strength', 'dexterity', 'vitality', 'special', 'insight'];
+POKEROLE.attributes = ['strength', 'dexterity', 'vitality', 'special', 'insight', 'fight', 'survival', 'contest'];
 POKEROLE.skills = ['brawl', 'channel', 'clash', 'evasion', 'alert', 'athletic', 'nature', 'stealth', 'allure', 'etiquette', 'intimidate', 'perform', 'crafts', 'lore', 'medicine', 'science'];
 POKEROLE.socialAttributes = ['tough', 'cool', 'beauty', 'cute', 'clever'];
-POKEROLE.extraAttributes = ['happiness', 'loyalty'];
+POKEROLE.extraAttributes = ['instinct', 'logic', 'primal'];
 
 // TODO
 POKEROLE.natureConfidence = {
@@ -475,6 +475,9 @@ POKEROLE.i18n = {
     "vitality": "POKEROLE.AttributeVitality",
     "special": "POKEROLE.AttributeSpecial",
     "insight": "POKEROLE.AttributeInsight",
+    "fight": "POKEROLE.AttributeFight",
+    "survival": "POKEROLE.AttributeSurvival",
+    "contest": "POKEROLE.AttributeContest",
   },
 
   skills: {
@@ -501,8 +504,9 @@ POKEROLE.i18n = {
   },
 
   extra: {
-    "happiness": "POKEROLE.ExtraHappiness",
-    "loyalty": "POKEROLE.ExtraLoyalty",
+    "instinct": "POKEROLE.ExtraInstinct",
+    "logic": "POKEROLE.ExtraLogic",
+    "primal": "POKEROLE.ExtraPrimal",
   },
 
   derived: {

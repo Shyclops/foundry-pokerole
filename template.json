@@ -1,7 +1,8 @@
 {
   "Actor": {
     "types": [
-      "pokemon"
+      "pokemon",
+      "mystery-dungeon"
     ],
     "templates": {
       "base": {
@@ -17,7 +18,6 @@
         },
         "rank": "none",
         "personality": "hardy",
-        "confidence": 0,
         "baseHp": 0,
         "actionCount": {
           "value": 1,
@@ -183,7 +183,129 @@
           "max": 5
         }
       }
-    }
+    },
+    "mystery-dungeon": {
+      "templates": [
+        "base"
+      ],
+      "level": 0,
+      "exp": 0,
+      "pokedexId": 0,
+      "species": "",
+      "pokedexCategory": "",
+      "pokedexDescription": "",
+      "type1": "none",
+      "type2": "none",
+      "type3": "none",
+      "hasThirdType": false,
+      "height": 0,
+      "weight": 0,
+      "recommendedRank": "none",
+      "painPenalty": "none",
+      "attributes": {
+        "special": {
+          "value": 0,
+          "min": 0,
+          "max": 12
+        },
+        "insight": {
+          "value": 0,
+          "min": 0,
+          "max": 12
+        },
+        "fight": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "survival": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "contest": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "skills": {
+        "brawl": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "channel": {
+          "value": 0,
+          "min": 0
+        },
+        "clash": {
+          "value": 0,
+          "min": 0
+        },
+        "evasion": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "alert": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "athletic": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "nature": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "stealth": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "allure": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "etiquette": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "intimidate": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "perform": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "extra": {
+        "instinct": {
+          "value": 2,
+          "min": 0,
+          "max": 5
+        },
+        "logic": {
+          "value": 2,
+          "min": 0,
+          "max": 5
+        },
+        "primal": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        }
+      }
   },
   "Item": {
     "types": [
