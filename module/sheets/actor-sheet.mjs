@@ -12,7 +12,7 @@ export class PokeroleActorSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["pokerole", "sheet", "actor"],
-      template: "systems/pokerole/templates/actor/actor-pokemon-sheet.html",
+      template: "systems/pokerole/templates/actor/actor-mystery-dungeon-sheet.html",
       width: 720,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "attributes" }]
@@ -21,7 +21,7 @@ export class PokeroleActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/pokerole/templates/actor/actor-pokemon-sheet.html`;
+    return `systems/pokerole/templates/actor/actor-mystery-dungeon-sheet.html`;
   }
 
   // Move groups that are collapsed by default
